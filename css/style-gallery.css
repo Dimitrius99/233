@@ -432,6 +432,7 @@ p.footer-ct {
       display: flex;
       justify-content: space-around;
       flex-wrap: wrap;
+      right: 10px;
   }
 
   .menu li {
@@ -1132,7 +1133,7 @@ p.footer-ct {
 
   .to-top {
     position: fixed;
-    top: 590px;
+    top: 510px;
     right: 15px;
   }
 
