@@ -268,7 +268,7 @@ a.jr {
 
 .footer {
   width: 100%;
-  height: 100px;
+  height: 120px;
   background-color: #49305b;
   margin: auto;
   color: #fff;
@@ -297,7 +297,7 @@ a.jr {
 .footer-links {
   text-decoration: none;
   color: #fff;
-  font-family: "Open sans";
+  font-family: 'Open Sans Condensed';
 }
 
 a.footer-links:active {
