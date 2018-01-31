@@ -780,7 +780,7 @@ p.footer-ct {
     margin: auto;
     color: #fff;
     font-size: 16px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans Condensed';
     position: relative;
     top: 1070px;
     display: flex;
@@ -798,7 +798,7 @@ p.footer-ct {
     text-decoration: none;
     color: #fff;
     position: absolute;
-    font-family: "Open sans";
+    font-family: 'Open Sans Condensed';
   }
 
   a.footer-links:active {
@@ -1153,7 +1153,7 @@ p.footer-ct {
     margin: auto;
     color: #fff;
     font-size: 16px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans Condensed';
     position: relative;
     top: 1070px;
     display: flex;
@@ -1164,7 +1164,7 @@ p.footer-ct {
     text-decoration: none;
     color: #fff;
     position: absolute;
-    font-family: "Open sans";
+    font-family: 'Open Sans Condensed';
   }
 
   a.footer-links:active {
