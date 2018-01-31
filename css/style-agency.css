@@ -281,7 +281,7 @@ a.jr {
 .ft2 {
   text-decoration: none;
   color: #fff;
-  margin-right: 36px;
+  margin-right: 80px;
 }
 
 .ft2:hover,.footer-links:hover,.ft1:hover {
@@ -1121,13 +1121,5 @@ p.footer-ct {
     position: relative;
     top: -19px;
     left: 203px;
-  }
-}
-
-@media only screen and (min-width: 1015px){
-  .ft1 {
-    position: relative;
-    top: 16px;
-    right: 143px;
   }
 }
