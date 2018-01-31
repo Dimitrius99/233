@@ -957,7 +957,7 @@ p.footer-ct {
   .to-top {
     position: fixed;
     top: 510px;
-    left: 337px;
+    right: 36px;
   }
 
   .to-top1 {
