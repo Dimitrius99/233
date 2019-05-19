@@ -1,0 +1,235 @@
+body {
+  background-image: url("../image/bg1.jpg");
+  font-family:'Pathway Gothic One',arial,Dorsa;
+  font-size: 35px;
+}
+
+.buttons {
+  width: 1024px;
+  height: 215px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 70px;
+}
+
+.menu li {
+  display: inline-block;
+  list-style: none;
+  padding: 10px;
+}
+
+.journey {
+  width: 130px;
+  height: 130px;
+  background-color: white;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 120px;
+  display: inline-block;
+  color: #000;
+  font-family: Dorsa;
+  font-size: 60px;
+}
+
+.menu_item:hover > .submenu { display: block; }
+
+.menu_item {
+  position: relative;
+  margin-right: 20px;
+}
+
+.submenu {
+ display: none;
+ position: absolute;
+}
+
+ul.submenu {
+  right: 0px;
+}
+
+.submenu li {
+  display: block;
+}
+
+.menu_item > a,
+.submenu_item > a {
+  width: 70px;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 28px;
+}
+
+
+.submenu_item>a:hover {
+  background: #8364f4;
+  color: #fff;
+}
+
+.submenu_item {
+  width: 50px;
+  height: 15px;
+  background-color: #f2f2f3;
+  font-size: 22px;
+}
+
+a.color {
+  color: #000;
+  font-size: 20px;
+  position: absolute;
+  left: 40px;
+}
+
+a.jr {
+  font-family: dorsa;
+  font-size: 60px;
+  color: #000;
+}
+
+.wrapper {
+  width: 1024px;
+  height: 1000px;
+  background-color: #fff;
+  margin: auto;
+}
+
+.wrapper-left {
+  display: inline-block;
+  width: 700px;
+  margin-left: 15px;
+}
+
+.wrapper-right {
+  display: inline-block;
+  width: 300px;
+}
+
+.to-top {
+  position: fixed;
+  top: 650px;
+  right: 150px;
+}
+
+.to-top1 {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ae32bc;
+  text-decoration: none;
+  font-size: 23px;
+  line-height: 10px;
+}
+
+.footer {
+  width: 1024px;
+  height: 100px;
+  background-color: #49305b;
+  margin: auto;
+  color: #fff;
+  font-size: 16px;
+  font-family: ‘Open Sans Condensed’;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-links {
+  text-decoration: none;
+  color: #fff;
+  position: absolute;
+}
+
+a.footer-links:active {
+  color: #ae32bc
+}
+
+.list-link{
+  margin: auto;
+  padding: 29px 10px 10px 30px;
+  position: absolute;
+  left: 40px;
+}
+
+.list-link li {
+  list-style-type: none;
+  display: inline-block;
+  width: 225px;
+  line-height: 0;
+  letter-spacing: 1px;
+  padding: 10px 10px 10px 10px;
+}
+
+.footer-ct {
+  position: absolute;
+  top: 0;
+  left: 800px;
+}
+
+.family {
+  font-family: arial;
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+.mini-text {
+  font-size: 12px;
+  font-family: arial;
+}
+
+p.footer-ct {
+  top: 30px;
+}
+
+.sprite {
+  list-style: none;
+  margin-top: 10px;
+  padding: 0;
+}
+
+.sprite li {
+  background: url("../image/sprite.png") no-repeat;
+  display: inline-block;
+  width: 36px;
+  height: 35px;
+  cursor: pointer;
+}
+
+.sprite .button1:hover {
+  background-position: 0 -39px;
+}
+
+.sprite .button2 {
+  background-position: -36px 0;
+}
+
+.sprite .button2:hover {
+  background-position: -36px -39px;
+}
+
+.sprite .button3 {
+  background-position: -73px 0;
+}
+
+.sprite .button3:hover {
+  background-position: -73px -39px;
+}
+
+.sprite .button4 {
+  background-position: -110px 0;
+}
+
+.sprite .button4:hover {
+  background-position: -110px -39px;
+}
+
+.down {
+  width: 1024px;
+  margin: auto;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 1px;
+}
